@@ -47,6 +47,37 @@ export default class App {
            case 0 :
                resultado = 'C';
             break;
+            case 1 :
+                resultado = 'C';
+             break;   
+             case 2 :
+             resultado = 'C';
+          break;   
+          case 3 :
+          resultado = 'C';
+       break;   
+       case 4 :
+       resultado = 'C';
+    break;   
+    case 5 :
+    resultado = 'C';
+ break;   
+ case 6 :
+ resultado = 'B';
+break;   
+case 7 :
+resultado = 'B';
+break;   
+case 8 :
+resultado = 'A';
+break;   
+case 9 :
+resultado = 'A';
+break;
+default:
+    resultado = "ERROR";
+    break;
+
        }
         
         }
@@ -54,7 +85,7 @@ export default class App {
     }
     
     obtenerCercano100(numero1, numero2, numero3) {
-    if(numero1 !== numero2 && numero1 !== numero3) {
+    if(numero1 !== numero2, numero3 !== numero1, numero2 !== numero3) {
         let x = Math.abs(numero1 - 100)
         let y = Math.abs(numero2 = 100)
         let z = Math.abs(numero3 - 100)
